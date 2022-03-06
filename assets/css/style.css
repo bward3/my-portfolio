@@ -1,0 +1,118 @@
+body {
+    background-color: #EBEEF2;
+    font-family: "Nunito", sans-serif;
+    margin: 1vmax;
+}
+main {
+    height:200vh;
+}
+
+h1 {
+    font-family: "Shadows Into Light";
+    border-bottom: 2px;
+    border-color: #7d2d22;
+    font-size: 400%;
+}
+
+h2 {
+    font-size: 300%;
+}
+
+div {
+    margin: .5rem;
+    border-radius: 1rem;
+}
+
+header {
+    padding: 20px;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    display: flex;
+    background-color: #012340;
+    color: #EBEEF2;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+section {
+    border-radius: 1rem;
+    background-color: #99c8f2;
+    display: flex;
+}
+
+section div {
+    padding: 1rem 0;
+    text-align: justify;
+}
+
+section div h1 {
+    align-content: center;
+}
+
+section div p {
+    font-size: 144%;
+    margin: 3rem;
+    line-height: 2;
+}
+
+header h1 {
+    width: 66%;
+    flex: auto;
+    padding-left: 2rem;
+}
+
+header div {
+    text-align: center;
+    width: 33%;
+    display: flex;
+}
+
+header div ul {
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+}
+
+header div ul li {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 150%;
+}
+
+#about-heading-div {
+    margin:0;
+    padding:0;
+}
+
+#about-heading-div h1 {
+    padding-left: 20rem;
+    margin:0;
+    margin-top:1rem;
+}
+
+#about-img-container {
+    width: 40%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+#about-me-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+#about-div {
+    width: 55%;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-div p {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
