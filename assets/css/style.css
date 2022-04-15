@@ -10,6 +10,8 @@ a {
     text-decoration: none;
 }
 
+
+
 main h1 {
     text-align: center;
     margin-top: 1.5rem;
@@ -22,6 +24,18 @@ h1 {
     border-color: #7d2d22;
     font-size: 400%;
     margin:0;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.contact a:link {
+    color: blue;
+}
+
+.contact a:visited {
+    color: blue;
 }
 
 h2 {
